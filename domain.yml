@@ -1,0 +1,181 @@
+version: "2.0"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - satu
+  - dua
+  - tiga
+  - empat
+  - lima
+  - enam
+  - tujuh
+  - delapan
+  - sembilan
+  - sepuluh
+  - sebelas
+  - duabelas
+  - tigabelas
+  - empatbelas
+  - limabelas
+  - enambelas
+  - tujuhbelas
+  
+
+
+responses:
+  utter_greet:
+  - text: "Selamat Datang di Chatbox Seputar Stunting !"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Oke, Silahkan bertanya"
+
+  utter_goodbye:
+  - text: "Sampai Berjumpa Lagi di Chatbox Seputar Stunting !
+  \n\n by Selgi Agilsa Ebimbi (20.01.53.0035)"
+    image: "https://t4.ftcdn.net/jpg/03/29/44/25/360_F_329442520_bs9DE1vhchdtXtbsJXcwGQTpjZd5NzDo.jpg"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+  utter_satu:
+  - text: "Sayangnya tidak ada cara yang cepat, namun ada cara yang mudah yang
+\n\nharus dilakukan bertahun-tahun. Pencegahan stunting adalah perjalanan
+\n\nyang cukup panjang dari mempersiapkan remaja putri sebelum menempuh 
+\n\nkehamilan, perencanaan keluarga dan kehamilan yang matang, menjaga 
+\n\nkehamilan yang sehat, nutrisi saat hamil dan menyusui, manajemen laktasi
+\n\nyang baik, manajemen MPASI yang adekuat, mencegah penyakit dengan
+\n\nimunisasi yang LENGKAP dan pemantauan pertumbuhan anak terus-menerus.
+\n\nJadi tidak ada cara cepat."
+
+  utter_dua:
+  - text: "Stunting adalah keadaan pendek yang khas disebabkan oleh gangguan 
+\n\nnutrisi, infeksi berulang yang tidak tertangani dalam jangka waktu yang 
+\n\nlama. Silahkan evaluasi kurva pertumbuhan dari sejak lahir, adalah 
+\n\npertumbuhan janin terhambat? Adakah riwayat infeksi berulang akibat 
+\n\nimunisasi tidak lengkap? adakah riwayat gagal tumbuh? Malnutrisi yang tidak 
+\n\nteratasi dalam waktu lama sehingga menyebabkan badannya pendek?"
+
+  utter_tiga:
+  - text: "Nutrisi untuk anak di atas 2 tahun mengikuti aturan “my plate” 
+\n\nterdiri dari ¼ sayuran, ¼ buah, ¼ karbohidrat (grain) dan ¼ protein. Pilih 
+\n\nprotein hewani dan berbagai jenis sayuran berwarna-warni."
+
+  utter_empat:
+  - text: "Ada dua masalah akibat stunting yaitu pertumbuhan otak dan tinggi 
+\n\nbadan. Pertumbuhan otak sangat pesat terjadi pada 2 tahun pertama sehingga 
+\n\nsetelah usia 2 tahun, tidak bisa diperbaiki. Tinggi badan masih bisa 
+\n\ndiperbaiki dengan berharap pada fase pubertas. Oleh karena itu JANGAN 
+\n\nmengobati stunting tapi lakukanlah PENCEGAHAN. Periode emas yang masih bisa 
+\n\nmemperbaiki stunting adalah sebelum usia 2 tahun, dan hasilnya pun tidak 
+\n\nbisa kembali sempurna, artinya bisa diperbaiki namun optimal."
+
+  utter_lima:
+  - text: "Stunting dapat dicegah dengan pemberian nutrisi yang tepat. Nutrisi 
+\n\npembangun tumbuh adalah makronutrien yang terdiri dari Karbohidrat, protein 
+\n\ndan lemak. Sedangkan vitamin dan mineral merupakan mikronutrien yang 
+\n\nmerupakan zat pendukung, bukan pembangun. Vitamin dan mineral terbaik 
+\n\nberasal dari makanan, bukan dari apotek. Tidak ada vitamin dan suplemen 
+\n\npencegah stunting."
+
+  utter_enam:
+  - text: "Tingkatkan produksi ASI dengan memompa payudara salaam 15-20 menit 
+\n\nsetelah menyusu, dan berikan ASI perah kepada bayi setelah menyusu."
+
+  utter_tujuh:
+  - text: "Pertumbuhan bayi prematur dipantau menggunakan kurva Fenton sampai 
+\n\nusia koreksi 10 minggu, kemudian pindah ke kurva WHO. Sedangkan perkembangan 
+\n\n(verbal, motoric halus dan kasar) menggunakan usia koreksi sampai usia 2 
+\n\ntahun, lalu dianggap sama dengan anak lain yang seusianya."
+
+  utter_delapan:
+  - text: "BUKAN, stunting adalah ukuran tinggi badan yaitu pendek dibandingkan 
+\n\ndengan anak seusianya. Stunting disebabkan oleh malnutrisi yang berlangsung 
+\n\nlama, oleh karena itu berat badan yang tidak naik merupakan awal menuju 
+\n\nkepada stunting, ayo segera diperbaiki."
+
+  utter_sembilan:
+  - text: "Remaja putri (terutama yang sudah haid) dianjurkan mengkonsumsi 
+\n\nsuplemen besi tiap minggu. Pada anak di atas 1 tahun, dianjurkan pemeriksaan 
+\n\nzat besi darah sebelum memutuskan pemberian suplemen zat besi. Pemeriksaan 
+\n\nzat besi meliputi darah lengkap, serum besi, TIBC dan ferritin."
+
+  utter_sepuluh:
+  - text: "Pada bayi dengan ASI eksklusif dianjurkan pemberian zat besi usia 4-6 
+\n\nbulan (tanpa pemeriksaan lab terlebih darhulu), untuk bayi prematur diberikan 
+\n\nzat besi sejak usia 1 bulan, lalu setelah usia 6 bulan dianjurkan mendapatkan 
+\n\nasupan tinggi zat besi dari MPASI (tinggi protein hewani)."
+
+  utter_sebelas:
+  - text: "Saat usia 6-12 bulan, ada dua manajemen nutrisi yang harus dievaluasi yaitu:
+\n\n-Apakah ASI cukup?
+\n\n-Apakah kuantitas dan kualitas MPASI cukup?
+\n\nPemberian sufor hanya dilakukan jika ASI tidak cukup.
+\n\nPemberian ASI pada masa MPASI tetap dominan mencapai 120 ml x Berat badan perharinya."
+
+  utter_duabelas:
+  - text: "Pada fase ini, harus evaluasi manajemen laktasi dengan langkah sebagai berikut:
+\n\n-Apakah produksi ASI cukup?
+\n\nCobalah pompa ASI setiap 2-3 jam sekali, dan lihat hasilnya, produksi ASI dikatakan cukup 
+\n\njika per porsi sekitar 20ml x Berat badan anak dan sekitar 200 ml x berat badan anak per 
+\n\nhari. Contoh jika berat badan banak 5 kg, maka produksi ASI dikatakan cukup jika per porsi 
+\n\n100 ml dan sehari 1000 ml.
+\n\n-Jika ASI tidak cukup lakukanlah stimulai produksi ASI dengan menyusui + pompa setiap 2-3 jam.
+\n\n-Menyusui bayi sekitar 10-15 menit ditambah dengan pompa ASI 15-20 menit setelah menyusui.
+\n\n-JIka bayi dalam keadaan malnutrisi, berikan PASI (pengganti ASI) selama menunggu produksi ASI cukup."
+
+  utter_tigabelas:
+  - text: "Pada fase ini harus dievaluasi manajemen laktasi dan manajemen MPASI.
+\n\nManajemen laktasi dapat melihat no.7. Kemudian evaluasi apakah manajemen MPASI sudah baik?
+\n\nMPASI setidaknya diberikan 3-4x sehari dengan kualitas dominan protein hewani. MPASI usia 6-9 bulan 
+\n\nmemiliki tekstur yang lembut, lumat namun tidak encer. Porsi MPASI sekitar 80-120 ml.
+\n\n-Evaluasi juga bagaimana 'moment' pemberian MPASI, apakah bayi diberikan makan saat kenyang 
+\n\n(setelah menyusu) sehingga bayi cenderung menolak makan? Atau kurang variasi menu sehingga bosan."
+
+  utter_empatbelas:
+  - text: "Kurva berat badan merupakan indikator gizi, namun perlu diingat gizi yang seimbang 
+\n\nsangat mendukung perkembangan otak dan mencegah penyakit-penyakit di usia lanjut. Jadi, gizi 
+\n\nbukan sekedar berat badan namun KUALITAS makanan.
+\n\nMisalnya apakah baik jika anak gendut namun kebanyakan karbohidrat? Tentu tidak baik karena hal 
+\n\ntersebut meningkatkan risiko diabetes di kemudian hari.
+\n\nApakah aman jika berat badan cukup namun kurang protein/ kebanyakan susu? Tentu tidak aman karena 
+\n\nhal tersebut bisa menyebabkan defisiensi besi, yang berakibat menurunnya daya imunitas dan kecerdasan."
+
+  utter_limabelas:
+  - text: "Saat anak gagal tumbuh di periode ASI (0-6 bulan), lakukanlah 2 hal yaitu: cukupkan gizinya 
+\n\ndengan PASI (pengganti ASI) dan lakukan relaktasi (mengembalikan/meningkatkan produksi ASI).
+\n\nPASI (sufor) dapat diberikan seperti memberikan ASI perah yaitu perporsi sekitar 20 mlx berat badan 
+\n\ndan setiap 8-12x sehari.
+\n\nJangan lupa merangsang produksi ASI sehingga nantinya, kebutuhan PASI akan menurun seiring dengan 
+\n\nbertambahnya produksi ASI."
+
+  utter_enambelas:
+  - text: "Pencegahan anemia pada ibu hamil harus dilakukan sebelum hamil. Jika anemia sudah terjadi saat 
+\n\nhamil maka kondisi ini sudah terlambat, sehingga harus diatasi segera, pada umumnya dokter kandungan 
+\n\nakan memberikan suplemen besi tergantung pada derajat keparahan defisiensinya (dapat berupa infus zat besi, 
+\n\nsuplemen minum). Namun perlu diingat, penyebab utama defisiensi besi adalah asupan besi yang kurang sehingga 
+\n\nwajib mengubah pola makan sehingga tidak terulang di saat fase menyusui."
+
+  utter_tujuhbelas:
+  - text: "Saat fase ini, evaluasi apakah anak masih ASI? Di usia ini, pemberian ASI harus dibatasi sehingga 
+\n\nasupan nutrisi dominan didapatkan dari makanan padat.
+\n\nEvaluasi juga manajemen nutrisi misalnya apakah kualitas kurang baik (kurang protein hewani?), apakah frekuensi 
+\n\ndan jumlah tidak cukup? (porsi dapat mencapai 1/3 porsi dewasa), apakah tekstur masih lunak dan ecer sehingga 
+\n\nporsi banyak namun kurang padat.
+\n\nSangat jarang gangguan pertumbuhan disebabkan oleh penyakit,oleh karena itu evaluasi dahulu manajemen nutrisinya."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

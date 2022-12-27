@@ -1,0 +1,173 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - permisi
+    - halo
+    - hai
+    - selamat sore
+    - selamat pagi
+    - selamat siang
+    - selamat malam
+
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+    - terima kasih
+    - thank you
+
+- intent: affirm
+  examples: |
+    - iya
+    - saya ingin tahu tentang stunting
+    - tanya seputar stunting dong
+    - mau tanya dong
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: satu
+  examples: |
+    - Adakah cara cepat/ tips mencegah stunting?
+    - Apa saja tips mencegah stunting?
+
+- intent: dua
+  examples: |
+    - Berat badan dan tinggi badan yang “kecil”, bagaimana membedakan stunting atau genetik (keturunan karena ayah ibu juga kecil)?
+    - Apa perbedaan stunting dan genetik?
+    - Cara membedakan stunting dan genetik?
+
+- intent: tiga
+  examples: |
+    - Seperti apa anjuran nutrisi anak di atas 2 tahun supaya tidak stunting dan tidak anemia defisiensi besi?
+    - apa nutrisi untuk mencegah stunting?
+
+- intent: empat
+  examples: |
+    - Apakah stunting setelah usia 2 tahun (sudah lewat 1000 hari pertama kehidupan) sama sekali tidak bisa diperbaiki?
+    - Apakah stunting setelah usia 2 tahun sama sekali tidak bisa diperbaiki?
+
+- intent: lima
+  examples: |
+    - Apakah vitamin/ suplemen / minyak ikan dapat mencegah stunting?
+    - vitamin pencegah stunting
+
+- intent: enam
+  examples: |
+    - Bayi menyusui 30-40 menit, bagaimana tips supaya bayi kenyang 10-15 menit?
+    - tips bayi kenyang 10-15 menit
+
+- intent: tujuh
+  examples: |
+    - Bagaimana menilai pertumbuhan dan perkembangan bayi prematur?
+    - Menilai pertumbuhan bayi prematur
+    - Menilai perkembangan bayi prematur
+
+- intent: delapan
+  examples: |
+    - Pertumbuhan BB melambat dan bahkan cenderung tidak naik, apakah stunting?
+    - Apakah stunting jika BB tidak naik?
+
+- intent: sembilan
+  examples: |
+    - Pemberian besi pada anak-anak dan remaja sebaiknya bagaimana?
+    - Cara pemberian besi pada anak-anak dan remaja
+
+- intent: sepuluh
+  examples: |
+    - Bagaimana pemberian zat besi pada bayi di bawah 12 bulan?
+    - Apa cara terbaik untuk memberikan zat besi pada bayi dibawah 12 bulan?
+
+- intent: sebelas
+  examples: |
+    - Perlukah menambah sufor saat MPASI jika kenaikan berat badan melambat?
+    - Apabila kenaikan berat badan melambat, perlukah menambah sufor saat MPASI?
+    - Perlukah menambah sufor saat MPASI?
+
+- intent: duabelas
+  examples: |
+    - Kasus bayi kurang dari 6 bulan dan kenaikan berat badan melambat (kurva pertumbuhan melandai).
+    - Penanganan bayi kurang dari 6 bulan dan kenaikan berat badan melambat
+  
+- intent: tigabelas
+  examples: |
+    - Kasus bayi usia 6-12 bulan mengalami pertumbuhan melambat.
+    - Bagaimana jika bayi usia 6-12 bulan mengalami pertumbuhan melambat?
+
+- intent: empatbelas
+  examples: |
+    - Aturan MPASI sangat keliru misalnya banyak karbo, gorengan, terlalu banyak sufor, namun berat badan naik bagus dan kurva pertumbuhan baik, apakah ini berbahaya?
+    - Apakah berbahaya saat MPASI terlalu banyak sufor namun berat badan naik?
+
+- intent: limabelas
+  examples: |
+    - Anak gagal tumbuh sebelum usia 6 bulan, dan dianjurkan pemberian sufor, bagaimana manajemen sufor?
+    - Bagaimana manajemen sufor?
+
+- intent: enambelas
+  examples: |
+    - Ibu hamil defisiensi besi, bagaimana mengatasinya?
+    - Cara mengatasi Ibu hamil defisiensi besi
+
+- intent: tujuhbelas
+  examples: |
+    - Kasus bayi usia 12-24 bulan dan kenaikan berat badan melambat (kurva pertumbuhan melandai atau tidak naik)
+    - Bagaimana jika bayi usia 12-24 bulan kenaikan berat badan melambat?

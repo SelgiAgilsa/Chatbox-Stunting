@@ -1,0 +1,119 @@
+version: "2.0"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: satu path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: affirm
+  - action: utter_happy
+  - intent: satu
+  - action: utter_satu
+
+- story: dua path
+  steps:
+  - intent: dua
+  - action: utter_dua
+
+- story: tiga path
+  steps:
+  - intent: tiga
+  - action: utter_tiga
+
+- story: empat path
+  steps:
+  - intent: empat
+  - action: utter_empat
+
+- story: lima path
+  steps:
+  - intent: lima
+  - action: utter_lima
+
+- story: enam path
+  steps:
+  - intent: enam
+  - action: utter_enam
+
+- story: tujuh path
+  steps:
+  - intent: tujuh
+  - action: utter_tujuh
+
+- story: delapan path
+  steps:
+  - intent: delapan
+  - action: utter_delapan
+
+- story: sembilan path
+  steps:
+  - intent: sembilan
+  - action: utter_sembilan
+
+- story: sepuluh path
+  steps:
+  - intent: sepuluh
+  - action: utter_sepuluh
+
+- story: sebelas path
+  steps:
+  - intent: sebelas
+  - action: utter_sebelas
+
+- story: duabelas path
+  steps:
+  - intent: duabelas
+  - action: utter_duabelas
+
+- story: tigabelas path
+  steps:
+  - intent: tigabelas
+  - action: utter_tigabelas
+
+- story: empatbelas path
+  steps:
+  - intent: empatbelas
+  - action: utter_empatbelas
+
+- story: limabelas path
+  steps:
+  - intent: limabelas
+  - action: utter_limabelas
+
+- story: enambelas path
+  steps:
+  - intent: enambelas
+  - action: utter_enambelas
+
+- story: tujuhbelas path
+  steps:
+  - intent: tujuhbelas
+  - action: utter_tujuhbelas
